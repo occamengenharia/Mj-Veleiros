@@ -1,5 +1,17 @@
 <footer class="site-footer">
             <div class="container">
+                <div class="logo">
+                    <?php
+                        if (has_custom_logo()) {
+                            the_custom_logo();
+                    } else {
+                    ?>
+                        <a href="<?php echo home_url('/'); ?>"><span><?php bloginfo('name'); ?></span></a>
+                    <?php
+                    }
+
+                    ?>
+                </div>
                 <div class="endereco">
                     <p> Rodovia Regis Bittencourt BR 116, Km 476 <br>
                         Rua Dois, n° 349 - Parque Industrial <br> 
