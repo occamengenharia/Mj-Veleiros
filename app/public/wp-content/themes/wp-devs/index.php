@@ -6,9 +6,6 @@
                     <section class="hero">
                         Hero
                     </section>
-                    <section class="services">
-                        Services
-                    </section>
                     <section class="home-blog">
                         <?php 
                         ?>
@@ -17,4 +14,6 @@
             </div>
         </div>
         <!-- -->
+
+<?php the_content(); ?>        
 <?php get_footer(); ?>
