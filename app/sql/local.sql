@@ -181,7 +181,7 @@ INSERT INTO `wp_options` VALUES (35,'ping_sites','http://rpc.pingomatic.com/','y
 INSERT INTO `wp_options` VALUES (36,'comment_max_links','2','yes');
 INSERT INTO `wp_options` VALUES (37,'gmt_offset','0','yes');
 INSERT INTO `wp_options` VALUES (38,'default_email_category','1','yes');
-INSERT INTO `wp_options` VALUES (39,'recently_edited','','no');
+INSERT INTO `wp_options` VALUES (39,'recently_edited','a:2:{i:0;s:84:\"C:\\Users\\wacbo\\Local Sites\\wp-devs\\app\\public/wp-content/plugins/akismet/akismet.php\";i:1;s:0:\"\";}','no');
 INSERT INTO `wp_options` VALUES (40,'template','wp-devs','yes');
 INSERT INTO `wp_options` VALUES (41,'stylesheet','wp-devs','yes');
 INSERT INTO `wp_options` VALUES (42,'comment_registration','0','yes');
@@ -262,7 +262,7 @@ INSERT INTO `wp_options` VALUES (116,'nonce_salt','>pEz5hac*e7*COOg/9_R<`a=_BY6O
 INSERT INTO `wp_options` VALUES (117,'widget_tag_cloud','a:1:{s:12:\"_multiwidget\";i:1;}','yes');
 INSERT INTO `wp_options` VALUES (118,'widget_nav_menu','a:1:{s:12:\"_multiwidget\";i:1;}','yes');
 INSERT INTO `wp_options` VALUES (119,'widget_custom_html','a:1:{s:12:\"_multiwidget\";i:1;}','yes');
-INSERT INTO `wp_options` VALUES (122,'recovery_keys','a:0:{}','yes');
+INSERT INTO `wp_options` VALUES (122,'recovery_keys','a:1:{s:22:\"3c5PaptgOHJwdezhcFzeeB\";a:2:{s:10:\"hashed_key\";s:34:\"$P$BVt7eLnGpd54QPKzZRIGL/g/UgTet0.\";s:10:\"created_at\";i:1668645116;}}','yes');
 INSERT INTO `wp_options` VALUES (125,'theme_mods_twentytwentytwo','a:2:{s:18:\"custom_css_post_id\";i:-1;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1660616794;s:4:\"data\";a:3:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:3:{i:0;s:7:\"block-2\";i:1;s:7:\"block-3\";i:2;s:7:\"block-4\";}s:9:\"sidebar-2\";a:2:{i:0;s:7:\"block-5\";i:1;s:7:\"block-6\";}}}}','yes');
 INSERT INTO `wp_options` VALUES (128,'https_detection_errors','a:2:{s:23:\"ssl_verification_failed\";a:1:{i:0;s:24:\"SSL verification failed.\";}s:17:\"bad_response_code\";a:1:{i:0;s:21:\"Internal Server Error\";}}','yes');
 INSERT INTO `wp_options` VALUES (133,'_site_transient_update_themes','O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1663765501;s:7:\"checked\";a:4:{s:12:\"twentytwenty\";s:3:\"2.0\";s:15:\"twentytwentyone\";s:3:\"1.6\";s:15:\"twentytwentytwo\";s:3:\"1.2\";s:7:\"wp-devs\";s:3:\"1.0\";}s:8:\"response\";a:0:{}s:9:\"no_update\";a:3:{s:12:\"twentytwenty\";a:6:{s:5:\"theme\";s:12:\"twentytwenty\";s:11:\"new_version\";s:3:\"2.0\";s:3:\"url\";s:42:\"https://wordpress.org/themes/twentytwenty/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/theme/twentytwenty.2.0.zip\";s:8:\"requires\";s:3:\"4.7\";s:12:\"requires_php\";s:5:\"5.2.4\";}s:15:\"twentytwentyone\";a:6:{s:5:\"theme\";s:15:\"twentytwentyone\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:45:\"https://wordpress.org/themes/twentytwentyone/\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/theme/twentytwentyone.1.6.zip\";s:8:\"requires\";s:3:\"5.3\";s:12:\"requires_php\";s:3:\"5.6\";}s:15:\"twentytwentytwo\";a:6:{s:5:\"theme\";s:15:\"twentytwentytwo\";s:11:\"new_version\";s:3:\"1.2\";s:3:\"url\";s:45:\"https://wordpress.org/themes/twentytwentytwo/\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/theme/twentytwentytwo.1.2.zip\";s:8:\"requires\";s:3:\"5.9\";s:12:\"requires_php\";s:3:\"5.6\";}}s:12:\"translations\";a:0:{}}','no');
@@ -627,7 +627,7 @@ INSERT INTO `wp_usermeta` VALUES (10,1,'show_admin_bar_front','true');
 INSERT INTO `wp_usermeta` VALUES (11,1,'locale','');
 INSERT INTO `wp_usermeta` VALUES (12,1,'wp_capabilities','a:1:{s:13:\"administrator\";b:1;}');
 INSERT INTO `wp_usermeta` VALUES (13,1,'wp_user_level','10');
-INSERT INTO `wp_usermeta` VALUES (14,1,'dismissed_wp_pointers','');
+INSERT INTO `wp_usermeta` VALUES (14,1,'dismissed_wp_pointers','plugin_editor_notice');
 INSERT INTO `wp_usermeta` VALUES (15,1,'show_welcome_panel','1');
 INSERT INTO `wp_usermeta` VALUES (16,1,'session_tokens','a:2:{s:64:\"6f1ae96e12a7ccde3a4f72da53f10ee7b7a2be3d8ea71dd8a5f950fcbcfc2dc5\";a:4:{s:10:\"expiration\";i:1662991575;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:134:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.100\";s:5:\"login\";i:1662818775;}s:64:\"e04f8cde32fa8df3ab26eb56432f11d550d6744999b95a54f01870bfd680bbef\";a:4:{s:10:\"expiration\";i:1662991605;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:134:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.100\";s:5:\"login\";i:1662818805;}}');
 INSERT INTO `wp_usermeta` VALUES (17,1,'wp_dashboard_quick_press_last_post_id','24');
@@ -669,6 +669,37 @@ LOCK TABLES `wp_users` WRITE;
 /*!40000 ALTER TABLE `wp_users` DISABLE KEYS */;
 INSERT INTO `wp_users` VALUES (1,'wesley','$P$Bb8PL.UjMti1uFP1K2Tt3s/gYgjeVd/','wesley','wacbona@gmail.com','http://wp-devs.local','2022-08-05 16:34:22','',0,'wesley');
 /*!40000 ALTER TABLE `wp_users` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wppusher_packages`
+--
+
+DROP TABLE IF EXISTS `wp_wppusher_packages`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wppusher_packages` (
+  `id` mediumint(9) NOT NULL AUTO_INCREMENT,
+  `package` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `repository` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `branch` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT 'master',
+  `type` int(11) NOT NULL,
+  `status` int(11) NOT NULL,
+  `ptd` int(11) NOT NULL,
+  `host` varchar(10) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `private` int(11) NOT NULL,
+  `subdirectory` varchar(255) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  UNIQUE KEY `id` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wppusher_packages`
+--
+
+LOCK TABLES `wp_wppusher_packages` WRITE;
+/*!40000 ALTER TABLE `wp_wppusher_packages` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_wppusher_packages` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
