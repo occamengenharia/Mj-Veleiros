@@ -7,5 +7,8 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'VersionPress\\' => array($baseDir . '/src'),
-    'SqlParser\\' => array($vendorDir . '/udan11/sql-parser/src'),
+    'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
+    'Symfony\\Component\\Process\\' => array($vendorDir . '/symfony/process'),
+    'Symfony\\Component\\Filesystem\\' => array($vendorDir . '/symfony/filesystem'),
+    'SqlParser\\' => array($vendorDir . '/phpmyadmin/sql-parser/src'),
 );
